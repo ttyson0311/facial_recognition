@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/github.io/facial_recognition/precache-manifest.14372ce2f3b7db7ae99d8c387046259a.js"
+  "/facial_recognition/precache-manifest.7441e6dfe2acc51f7f65a92562589875.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/github.io/facial_recognition/index.html", {
+workbox.routing.registerNavigationRoute("/facial_recognition/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
